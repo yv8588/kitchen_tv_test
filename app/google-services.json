@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "918945411409",
+    "firebase_url": "https://alpha-project0-1-default-rtdb.firebaseio.com",
+    "project_id": "alpha-project0-1",
+    "storage_bucket": "alpha-project0-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918945411409:android:c3abadda57e27c971e6370",
+        "android_client_info": {
+          "package_name": "com.example.alpha_project01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918945411409-1mq0976t73n0mcer5e672a3p1ppr89fr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9jAjjdaPQAqAbzoq4F8r6O3ZVHNi-z88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918945411409-1mq0976t73n0mcer5e672a3p1ppr89fr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918945411409:android:41dc94b9f74c8e221e6370",
+        "android_client_info": {
+          "package_name": "com.example.kitchentv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918945411409-1mq0976t73n0mcer5e672a3p1ppr89fr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9jAjjdaPQAqAbzoq4F8r6O3ZVHNi-z88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918945411409-1mq0976t73n0mcer5e672a3p1ppr89fr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
