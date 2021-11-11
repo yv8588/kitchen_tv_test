@@ -2,7 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.kitchentv">
-
     <uses-permission android:name="android.permission.INTERNET" />
 
     <uses-feature
@@ -17,24 +16,36 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.KitchenTv">
-        <activity android:name=".register"></activity>
+        android:theme="@style/Theme.KitchenTv"
+        android:banner="@drawable/app_icon_your_company">
         <activity
             android:name=".MainActivity"
             android:banner="@drawable/app_icon_your_company"
             android:icon="@drawable/app_icon_your_company"
             android:label="@string/app_name"
             android:logo="@drawable/app_icon_your_company"
-            android:screenOrientation="landscape">
+            android:screenOrientation="landscape"
+            tools:ignore="DuplicateActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DetailsActivity" />
-        <activity android:name=".PlaybackActivity" />
-        <activity android:name=".BrowseErrorActivity" />
+        <activity
+            android:name=".photo_show"
+            android:label="@string/app_name"
+            android:banner="@drawable/app_icon_your_company"
+            android:icon="@drawable/app_icon_your_company"
+            android:logo="@drawable/app_icon_your_company"
+            android:screenOrientation="landscape"
+            tools:ignore="DuplicateActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

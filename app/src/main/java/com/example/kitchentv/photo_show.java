@@ -21,7 +21,6 @@ import static com.example.kitchentv.FBref.STORAGEREF;
 
 public class photo_show extends AppCompatActivity {
     ImageView photo;
-    Bitmap image;
     StorageReference pathReference;
     String userid;
 
@@ -29,7 +28,7 @@ public class photo_show extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_photo_show);
         photo=(ImageView)findViewById(R.id.photo);
 
     }
@@ -57,20 +56,5 @@ public class photo_show extends AppCompatActivity {
                 }
             });
         }
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.main,menu);
-        return super.onCreateOptionsMenu(menu);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        if(item.getTitle().toString().equals("register")){
-            Intent si=new Intent(this,MainActivity.class);
-            startActivity(si);
-        }
-        return super.onOptionsItemSelected(item);
     }
 }
