@@ -26,7 +26,7 @@ public class photo_show extends AppCompatActivity {
 
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_photo_show);
         photo=(ImageView)findViewById(R.id.photo);
